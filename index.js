@@ -4,6 +4,8 @@ const app = express();
 
 const port = 3000;
 const partnerRoutes = require("./partners/partnerRoutes");
+const { configDotenv } = require("dotenv");
+configDotenv();
 console.log(process.env.SUPABASE_KEY);
 //should have a api key for access
 

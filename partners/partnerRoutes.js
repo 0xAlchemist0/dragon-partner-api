@@ -7,12 +7,17 @@ const partnerRoutes = express.Router();
 partnerRoutes.get("/", (req, res) => {
   res.send("Gets all all partners");
 });
-
-partnerRoutes.get("/mockfill", (req, res) => {
+partnerRoutes.get("/mockfill", async (req, res) => {
+  // Use Promise.all to await all async operations
   const fillResult = async () => {
-    mockPartners.map((item) => {});
+    const insertPromises = mockPartners.map((item) => {
+      return insertData(item, "partners"); // Don't stringify!
+    });
+    await Promise.all(insertPromises);
   };
-  fillResult();
+
+  await fillResult();
+  res.send("Inserted mock partners.");
 });
 
 partnerRoutes.post("/", (req, res) => {

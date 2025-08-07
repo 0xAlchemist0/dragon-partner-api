@@ -3,7 +3,7 @@ export const mockPartners = [
     id: 1,
     name: "LayerZero",
     symbol: "ZRO",
-    logo: "https://cryptologos.cc/logos/layerzero-labs-zro-logo.png?v=032",
+    logo: "https://images.prismic.io/uphold/ZntSD5bWFbowe2vI_ZRO%402x.png?auto=format,compress?auto=compress,format",
     chains: [
       { name: "Ethereum", chainId: 1 },
       { name: "Arbitrum", chainId: 42161 },
@@ -17,15 +17,15 @@ export const mockPartners = [
     id: 2,
     name: "Velodrome",
     symbol: "VELO",
-    logo: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/assets/0x3c8cAee4E09296800f8D29A68Fa3837e2dae4940/logo.png",
-    chains: [{ name: "Optimism", chainId: 10 }],
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/20435.png",
+    chains: [{ name: "Base", chainId: 8453 }],
     url: "https://velodrome.finance",
   },
   {
     id: 3,
     name: "Radiant Capital",
     symbol: "RDNT",
-    logo: "https://cryptologos.cc/logos/radiant-capital-rdnt-logo.png?v=032",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/21106.png",
     chains: [
       { name: "Arbitrum", chainId: 42161 },
       { name: "BNB Chain", chainId: 56 },
@@ -36,9 +36,9 @@ export const mockPartners = [
     id: 4,
     name: "Sonic",
     symbol: "SONIC",
-    logo: "https://i.imgur.com/oKMzZsD.png", // Replace with your actual logo URL
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png", // Replace with your actual logo URL
     chains: [
-      { name: "Sonic", chainId: 100_000 }, // Replace with correct if needed
+      { name: "Sonic", chainId: 110 }, // Replace with correct if needed
     ],
     url: "https://sonic.fyi",
   },
