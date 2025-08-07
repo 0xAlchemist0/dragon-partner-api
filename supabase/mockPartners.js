@@ -1,6 +1,5 @@
 export const mockPartners = [
   {
-    id: 1,
     name: "LayerZero",
     symbol: "ZRO",
     logo: "https://images.prismic.io/uphold/ZntSD5bWFbowe2vI_ZRO%402x.png?auto=format,compress?auto=compress,format",
@@ -12,17 +11,17 @@ export const mockPartners = [
       { name: "BNB Chain", chainId: 56 },
     ],
     url: "https://layerzero.network",
+    is_active: true,
   },
   {
-    id: 2,
     name: "Velodrome",
     symbol: "VELO",
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/20435.png",
     chains: [{ name: "Base", chainId: 8453 }],
     url: "https://velodrome.finance",
+    is_active: true,
   },
   {
-    id: 3,
     name: "Radiant Capital",
     symbol: "RDNT",
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/21106.png",
@@ -31,9 +30,9 @@ export const mockPartners = [
       { name: "BNB Chain", chainId: 56 },
     ],
     url: "https://radiant.capital",
+    is_active: true,
   },
   {
-    id: 4,
     name: "Sonic",
     symbol: "SONIC",
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png", // Replace with your actual logo URL
@@ -41,5 +40,6 @@ export const mockPartners = [
       { name: "Sonic", chainId: 110 }, // Replace with correct if needed
     ],
     url: "https://sonic.fyi",
+    is_active: true,
   },
 ];
