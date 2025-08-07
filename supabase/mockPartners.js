@@ -2,7 +2,7 @@ export const mockPartners = [
   {
     name: "LayerZero",
     symbol: "ZRO",
-    logo: "https://images.prismic.io/uphold/ZntSD5bWFbowe2vI_ZRO%402x.png?auto=format,compress?auto=compress,format",
+    logo: "https://images.prismic.io/uphold/ZntSD5bWFbowe2vI_ZRO%402x.png?auto=format,compress",
     chains: [
       { name: "Ethereum", chainId: 1 },
       { name: "Arbitrum", chainId: 42161 },
@@ -35,11 +35,86 @@ export const mockPartners = [
   {
     name: "Sonic",
     symbol: "SONIC",
-    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png", // Replace with your actual logo URL
-    chains: [
-      { name: "Sonic", chainId: 110 }, // Replace with correct if needed
-    ],
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png",
+    chains: [{ name: "Sonic", chainId: 110 }],
     url: "https://sonic.fyi",
+    is_active: true,
+  },
+  {
+    name: "Aave",
+    symbol: "AAVE",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png",
+    chains: [
+      { name: "Ethereum", chainId: 1 },
+      { name: "Polygon", chainId: 137 },
+      { name: "Arbitrum", chainId: 42161 },
+      { name: "Optimism", chainId: 10 },
+    ],
+    url: "https://aave.com",
+    is_active: true,
+  },
+  {
+    name: "GMX",
+    symbol: "GMX",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/11857.png",
+    chains: [
+      { name: "Arbitrum", chainId: 42161 },
+      { name: "Avalanche", chainId: 43114 },
+    ],
+    url: "https://gmx.io",
+    is_active: true,
+  },
+  {
+    name: "Stargate",
+    symbol: "STG",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/20334.png",
+    chains: [
+      { name: "Ethereum", chainId: 1 },
+      { name: "Avalanche", chainId: 43114 },
+      { name: "Polygon", chainId: 137 },
+      { name: "BNB Chain", chainId: 56 },
+      { name: "Arbitrum", chainId: 42161 },
+      { name: "Optimism", chainId: 10 },
+    ],
+    url: "https://stargate.finance",
+    is_active: true,
+  },
+  {
+    name: "Synthetix",
+    symbol: "SNX",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/2586.png",
+    chains: [
+      { name: "Optimism", chainId: 10 },
+      { name: "Ethereum", chainId: 1 },
+    ],
+    url: "https://synthetix.io",
+    is_active: true,
+  },
+  {
+    name: "Curve Finance",
+    symbol: "CRV",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/6538.png",
+    chains: [
+      { name: "Ethereum", chainId: 1 },
+      { name: "Polygon", chainId: 137 },
+      { name: "Arbitrum", chainId: 42161 },
+      { name: "Fantom", chainId: 250 },
+    ],
+    url: "https://curve.fi",
+    is_active: true,
+  },
+  {
+    name: "Uniswap",
+    symbol: "UNI",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
+    chains: [
+      { name: "Ethereum", chainId: 1 },
+      { name: "Polygon", chainId: 137 },
+      { name: "Arbitrum", chainId: 42161 },
+      { name: "Optimism", chainId: 10 },
+      { name: "Base", chainId: 8453 },
+    ],
+    url: "https://uniswap.org",
     is_active: true,
   },
 ];
